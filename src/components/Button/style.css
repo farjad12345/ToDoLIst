@@ -1,0 +1,27 @@
+        .footer__button{
+    display: inline-block;
+width: calc(50% - 8px);
+height: 48px;
+font-size: 16px;
+border: none;
+outline: none;
+    }
+.secondary{
+background-color:var( --red-color) ;
+color: var(--white-color);
+transition: 0.5s all ease-in-out;
+cursor: pointer;
+
+}
+.secondary:hover{
+    box-shadow: 0px 4px 12px 0px #F84546;
+}
+.primary{
+background-color:var(--white-color) ;
+color: var( --red-color) ;
+transition: 0.5s all ease-in-out;
+cursor: pointer;
+}
+.primary:hover{
+box-shadow:  0px 4px 12px 0px rgba(0, 0, 0, 0.1);
+}

@@ -1,0 +1,42 @@
+
+.parent-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 16px;
+    min-height: 32px;
+    transition: all .5s ease-in-out;
+
+}
+.parent-item:hover{
+    background-color: var(--red-color);
+    color: var(--white-color);
+}
+.item{
+    line-height: 16px;
+    font-size: 16px;
+    color: black;
+    margin: 12px 8px 12px 0;
+      width: 50%; 
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.butten-items {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background-color: var(--white-color);
+         margin: 12px 0 12px 8px;
+padding: 0;
+    transition: all .5s ease-in-out;
+border: none;
+    }
+
+.butten-items:hover{
+    background: var(--white-color);
+    color: var(--red-color);
+        cursor: pointer;
+
+
+}
